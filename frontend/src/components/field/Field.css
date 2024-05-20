@@ -1,0 +1,59 @@
+.field {
+  width: 450px;
+  height: 450px;
+  display: flex;
+  border-radius: 50%;
+  box-shadow: 0px 0px 15px 5px #17024b9f
+}
+
+.sector {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+}
+
+.outer-radius {
+  width: 450px;
+  height: 450px;
+  background: conic-gradient(
+  white 30deg,
+  black 30deg 60deg,
+  white 60deg 90deg,
+  black 90deg 120deg,
+  white 120deg 150deg,
+  black 150deg 180deg,
+  white 180deg 210deg,
+  black 210deg 240deg,
+  white 240deg 270deg,
+  black 270deg 300deg,
+  white 300deg 330deg,
+  black 330deg 360deg
+  );
+}
+
+.inner-radius {
+  width: 300px;
+  height: 300px;
+  background: conic-gradient(
+    black 30deg,
+    white 30deg 60deg,
+    black 60deg 90deg,
+    white 90deg 120deg,
+    black 120deg 150deg,
+    white 150deg 180deg,
+    black 180deg 210deg,
+    white 210deg 240deg,
+    black 240deg 270deg,
+    white 270deg 300deg,
+    black 300deg 330deg,
+    white 330deg 360deg
+    );
+}
+
+.dejarik {
+  width: 150px;
+  height: 150px;
+  background-color: white;
+  position: relative;
+}

@@ -1,0 +1,28 @@
+.figure {
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: red;
+  border-radius: 50%;
+  position: absolute;
+  user-select: none;
+  box-sizing: border-box;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.figure.first {
+  background-color: rgb(235, 43, 43);
+  border: solid 3px rgb(114, 12, 12);
+  color: rgb(253, 176, 176);
+  text-shadow: 2px 2px 2px rgb(114, 12, 12);
+}
+
+.figure.second {
+  background-color: rgb(43, 72, 235);
+  border: solid 3px rgb(12, 48, 114);
+  color: rgb(117, 198, 252);
+  text-shadow: 2px 2px 2px rgb(12, 48, 114);;
+}
